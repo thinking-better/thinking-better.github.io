@@ -16,35 +16,17 @@ permalink: /writing/
 
     </div>
 
-
     <section>
 
-        <div class="list">
+        <p>
+            I'm working on a collection of essays about problem solving,
+            learning, technology, artificial intelligence and the process
+            of thinking better.
+        </p>
 
-            <div class="list-item">
-
-                <h3>How I Approach Difficult Problems</h3>
-
-                <p>
-                    A framework for moving from ambiguity to a
-                    structured, repeatable problem-solving process.
-                </p>
-
-            </div>
-
-
-            <div class="list-item">
-
-                <h3>What Does It Mean to Understand a Model?</h3>
-
-                <p>
-                    Thinking beyond model selection and metrics:
-                    assumptions, mechanisms, uncertainty and failure.
-                </p>
-
-            </div>
-
-        </div>
+        <p class="coming-soon">
+            Coming soon.
+        </p>
 
     </section>
 
