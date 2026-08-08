@@ -82,4 +82,32 @@ layout: default
         </section>
     
     {% endif %}
+
+    {% assign backlinks = site.notes
+        | where_exp: "note",
+          "note.related contains page.slug" %}
+    
+    {% if backlinks.size > 0 %}
+    
+        <section class="related-notes">
+    
+            <h3>Referenced by</h3>
+    
+            <ul>
+    
+                {% for backlink in backlinks %}
+    
+                    <li>
+                        <a href="{{ backlink.url | relative_url }}">
+                            {{ backlink.title }}
+                        </a>
+                    </li>
+    
+                {% endfor %}
+    
+            </ul>
+    
+        </section>
+    
+    {% endif %}
 </div>
