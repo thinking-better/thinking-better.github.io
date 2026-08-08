@@ -1,6 +1,8 @@
 ---
 layout: note
 title: Q-Q Plots
+slug: qq-plots
+
 category: Statistics
 
 tags:
