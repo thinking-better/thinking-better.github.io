@@ -12,15 +12,6 @@ author:
 markdown: kramdown
 
 permalink: pretty
-
-collections:
-  notes:
-    output: true
-    permalink: /notes/:name/
-    
-  books:
-    output: true
-    permalink: /books/:name/
     
 exclude:
   - README.md
